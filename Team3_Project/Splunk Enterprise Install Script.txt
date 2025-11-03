@@ -1,0 +1,5 @@
+!#/bin/bash
+sudo wget -O splunk.tgz https://download.splunk.com/products/splunk/releases/9.4.3/linux/splunk-9.4.3-237ebbd22314-linux-amd64.tgz
+sudo tar -xvzf splunk.tgz -C /opt
+cd /opt/splunk/bin
+sudo ./splunk start
